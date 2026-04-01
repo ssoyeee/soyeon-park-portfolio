@@ -16,13 +16,15 @@ export default async function handler(req, res) {
         'anthropic-version': '2023-06-01',
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
+        model: 'claude-sonnet-4-5',
         max_tokens: 1000,
         system,
         messages,
       }),
     })
     const data = await response.json()
+    console.log('Anthropic response status:', response.status)
+    console.log('Anthropic response:', JSON.stringify(data))
     return res.status(200).json(data)
   } catch (error) {
     console.error('API error:', error)
