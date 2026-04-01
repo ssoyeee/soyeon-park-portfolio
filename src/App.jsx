@@ -137,7 +137,7 @@ const PROJECTS = [
   { title: "Video Calling Web App", tags: ["WebRTC", "WebSockets", "Node.js"], desc: "Peer-to-peer video conferencing application built with WebRTC and real-time signaling.", type: "Web" },
   { title: "Job Search Automation Tool", tags: ["Python", "Selenium", "Flask", "Beautiful Soup"], desc: "Web scraper that aggregates job listings and surfaces relevant opportunities.", type: "Web" },
   { title: "Productivity Chrome Extension", tags: ["JavaScript", "Chrome API"], desc: "Browser extension designed to help users stay motivated and on task.", type: "Web" },
-  { title: "Developer Portfolio", tags: ["React", "JavaScript"], desc: "This portfolio site showcasing projects, experience, and skills.", type: "Web" },
+  { title: "AI-Powered Developer Portfolio", tags: ["React", "Vite", "Claude API", "Vercel", "Node.js"], desc: "This portfolio site with an integrated AI assistant that answers questions about my background. Built with a secure serverless API proxy to handle Claude API calls without exposing credentials.", type: "Web" },
 ];
 
 const SUGGESTIONS = [
