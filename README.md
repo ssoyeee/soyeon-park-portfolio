@@ -1,4 +1,4 @@
-**# Soyeon Portfolio
+# Soyeon Portfolio
 ```
 Project Structure
 soyeon-park-portfolio/
@@ -12,4 +12,4 @@ soyeon-park-portfolio/
 ├── package.json
 └── vite.config.js
 ```           
-**
+
