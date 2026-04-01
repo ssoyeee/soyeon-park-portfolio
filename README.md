@@ -1,5 +1,5 @@
-# Soyeon Portfolio
-
+**# Soyeon Portfolio
+```
 Project Structure
 soyeon-park-portfolio/
 ├── api/
@@ -10,4 +10,6 @@ soyeon-park-portfolio/
 │   └── index.css            : Global styles
 ├── index.html               : HTML entry point
 ├── package.json
-└── vite.config.js             
+└── vite.config.js
+```           
+**
